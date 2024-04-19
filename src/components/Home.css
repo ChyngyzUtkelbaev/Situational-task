@@ -1,0 +1,27 @@
+.banner-container {
+    position: relative;
+}
+
+.banner-container img {
+    width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    top: 20%; /* Измененное значение для того, чтобы текст был выше */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    text-align: center;
+  }
+  
+/* Добавляем анимацию при наведении курсора на элементы */
+.banner-container img:hover {
+    transform: scale(1.05); /* Увеличиваем изображение при наведении */
+    transition: transform 0.3s ease; /* Плавное изменение с использованием анимации */
+  }
+  
+
+  
+  

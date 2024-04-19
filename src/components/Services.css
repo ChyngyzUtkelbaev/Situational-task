@@ -1,0 +1,44 @@
+/* src/components/Services.css */
+
+.services {
+  background-image: url('../assets/services-background.jpg');
+  background-size: cover; /* Заполняет всю область фона */
+  background-position: center;
+  color: white;
+  padding: 50px 0;
+  height: 100vh; /* Устанавливает высоту элемента равной высоте окна браузера */
+  transition: background-color 0.3s ease; /* Плавный переход для фона */
+}
+
+/* Плавный переход для фона элементов */
+.service-card {
+  max-width: 300px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  text-align: center;
+  transition: background-color 0.3s ease; /* Плавный переход для фона */
+}
+
+/* Анимация при наведении на элемент услуги */
+.service-card:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  transform: scale(1.05); /* Увеличиваем размер элемента */
+}
+
+.service-card h3 {
+  margin-top: 0;
+  transition: color 0.3s ease; /* Плавный переход для цвета текста */
+}
+
+.service-card p {
+  margin-bottom: 0;
+  transition: opacity 0.3s ease; /* Плавный переход для прозрачности текста */
+}
+
+.service-card:hover p {
+  opacity: 0.8; /* Сделаем текст чуть менее прозрачным при наведении */
+}
+.services h2 {
+  color: yellow;
+}
