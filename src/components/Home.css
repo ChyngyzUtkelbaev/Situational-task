@@ -9,17 +9,17 @@
 
 .banner-text {
     position: absolute;
-    top: 20%; /* Измененное значение для того, чтобы текст был выше */
+    top: 20%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
     text-align: center;
   }
   
-/* Добавляем анимацию при наведении курсора на элементы */
+
 .banner-container img:hover {
-    transform: scale(1.05); /* Увеличиваем изображение при наведении */
-    transition: transform 0.3s ease; /* Плавное изменение с использованием анимации */
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
   }
   
 
