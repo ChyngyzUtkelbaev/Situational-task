@@ -1,42 +1,40 @@
-/* src/components/Portfolio.css */
 
-/* Добавляем плавный переход для цвета текста */
 .portfolio {
   background-image: url('../assets/portfolio-background.jpg');
   background-size: cover;
   background-position: center;
   color: white;
   padding: 50px 0;
-  height: 100vh; /* Устанавливает высоту элемента равной высоте окна браузера */
-  transition: color 0.3s ease; /* Плавный переход для цвета текста */
+  height: 100vh;
+  transition: color 0.3s ease;
 }
 
-/* Добавляем плавный переход для фона элементов портфолио */
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  transition: background-color 0.3s ease; /* Плавный переход для фона элементов */
+  transition: background-color 0.3s ease;
 }
 
-/* Добавляем анимацию при наведении на элемент портфолио */
+
 .portfolio-item {
   width: 300px;
   margin-bottom: 30px;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-  transition: background-color 0.3s ease; /* Плавный переход для фона элементов при наведении */
+  transition: background-color 0.3s ease;
 }
 
-/* Анимация изменения цвета фона при наведении */
+
 .portfolio-item:hover {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
 .portfolio-item h3 {
   margin-top: 0;
-  transition: color 0.3s ease; /* Плавный переход для цвета текста заголовка */
+  transition: color 0.3s ease;
 }
 
 .portfolio-item p {
