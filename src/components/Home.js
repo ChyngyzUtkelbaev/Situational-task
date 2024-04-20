@@ -1,6 +1,6 @@
 import React from 'react';
 import bannerImage from '../assets/banner.jpg';
-import './Home.css'; // Подключаем файл стилей
+import './Home.css';
 
 const Home = () => {
   return (
